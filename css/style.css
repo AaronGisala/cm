@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image:url(images/bg.png);
+	padding:0;
+	margin:0;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:15px;
+	color:#000;
+	}
+	
+#wrapper{
+	background:fff;
+	width:98%;
+	margin:0 auto;
+	}
+	
+#logo{
+	background:;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Khmer OS Muol Light", serif;
+	font-size:25px;
+	text-align:center;
+	text-shadow: 0 3px 1px #333;
+	padding: 8px 0 40px 0;
+	color:#CCF;
+	}
+
+#th{
+	padding:1;
+	margin:1;
+	text-align:center;
+	text-shadow: 1px 1px 1px #FFF;
+	font-family:Cambria, "Khmer OS Niroth";
+	font-size:16px;
+	color:#000;
+	}
+	
+#td{
+	padding:1;
+	margin:1;
+	font-family:Cambria, "Khmer OS Siemreap";
+	font-size:15px;
+	color:#000;
+	}
+
+input[type="text"]{
+    
+    padding: 4px;   
+    border: 1px solid #DDDDDD;
+	font-family:Cambria, "Khmer OS Siemreap";
+	font-size:13px;
+    
+    /*Applying CSS3 gradient*/
+    background: -moz-linear-gradient(center top , #FFFFFF,  #EEEEEE 1px, #FFFFFF 20px);    
+    background: -webkit-gradient(linear, left top, left 20, from(#FFFFFF), color-stop(5%, #EEEEEE) to(#FFFFFF));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FBFBFB', endColorstr='#FFFFFF');
+    
+    /*Applying CSS 3radius*/   
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    
+    /*Applying CSS3 box shadow*/
+    -moz-box-shadow: 0 0 2px #DDDDDD;
+    -webkit-box-shadow: 0 0 2px #DDDDDD;
+    box-shadow: 0 0 2px #DDDDDD;
+
+}
+input[type="text"]:hover
+{
+    border:1px solid #00F;
+}
+input[type="text"]:focus
+{
+    box-shadow:0 0 2px #FFFE00;
+}
+
+#h6{
+	margin:auto;
+	font-family:Cambria, "Khmer OS Siemreap";
+	font-size:14px;
+	color:#0C0;
+	}
+	
+#h3{
+	margin:auto;
+	font-family:Cambria, "Khmer OS Siemreap";
+	font-size:18px;
+	color:#00C;
+	}
+p {
+	padding:0px;
+	font: 16px "Hoefler Text", "Liberation Serif", Times, "Khmer OS Niroth", serif;
+	color:#00F;
+	}
+
+#Alert {
+	font: 16px "Khmer OS Niroth", serif;
+	}

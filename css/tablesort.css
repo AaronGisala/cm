@@ -1,0 +1,37 @@
+table {
+  width           : 970px;
+  margin-bottom   : 10px;
+  border-collapse : collapse;
+  background      : #fff;
+  box-shadow      : 0 2px 6px rgba(0,0,0,0.1);
+}
+
+th {
+  font-weight        : 300;
+  color              : #fff;
+  background-image   : -webkit-linear-gradient(bottom,rgb(202,0,89), rgb(243,0,107) );
+  background-image   :    -moz-linear-gradient(bottom,rgb(202,0,89), rgb(243,0,107) );
+  background-image   :     -ms-linear-gradient(bottom,rgb(202,0,89), rgb(243,0,107) );
+  background-image   :         linear-gradient(bottom,rgb(202,0,89), rgb(243,0,107) );
+  -webkit-transition : all 0.3s;
+  -moz-transition    : all 0.3s;
+  -ms-transition     : all 0.3s;
+  -o-transition      : all 0.3s;
+  transition         : all 0.3s;
+}
+
+td {
+  font-weight: 300;
+}
+
+td,th {
+  padding     : 0 6px;
+  font-size   : 13px;
+  line-height : 30px;
+}
+
+tbody tr:nth-child(even) {
+  background: rgb(240, 240, 240);
+}
+
+/* Table Sorting */
